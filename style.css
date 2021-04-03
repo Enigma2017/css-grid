@@ -1,0 +1,16 @@
+body{
+    background-color: salmon;
+}
+
+.grid__body{
+    display: grid;
+    /*display: inline-grid;*/ 
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
+}
+
+.grid__item{
+    text-align: center;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    padding: 30px;
+}
