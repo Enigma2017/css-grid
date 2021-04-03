@@ -5,7 +5,8 @@ body{
 .grid__body{
     display: grid;
     /*display: inline-grid;*/ 
-    grid-template-columns: 200px;
+    /*grid-template-columns: 200px 150px 300px; */
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 200px;
 }
 
